@@ -208,7 +208,7 @@ const Skills = () => {
       skills: ["Java", "Python", "C#", "JavaScript(ES6+)", "PHP", "SQL"],
     },
     {
-      title: "Tech Stacks",
+      title: "Tech",
       icon: <Server className="text-accent" />,
       skills: [
         "Laravel",
@@ -223,13 +223,18 @@ const Skills = () => {
     {
       title: "Tools",
       icon: <Wrench className="text-accent" />,
-      skills: ["Git & GitHub", "Docker", "Figma", "VS Code", "Postman"],
+      skills: ["Git & GitHub", "Docker", "Figma", "VS Code", "Postman","Visual Studio","IntelliJ IDEA"],
     },
     {
       title: "DBMS",
       icon: <Database className="text-accent" />,
       skills: ["MySQL", "MariaDB", "MongoDB", "PostgreSQL", "SQLite"],
     },
+    // {
+    //   title: "DBMS",
+    //   icon: <Database className="text-accent" />,
+    //   skills: ["MySQL", "MariaDB", "MongoDB", "PostgreSQL", "SQLite"],
+    // },
   ];
 
   return (
